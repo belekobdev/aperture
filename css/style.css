@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none  ;
+}
+
+a  {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+#header {
+    background: #181818;
+    padding: 30px 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title a {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 0 35px;
+}
+.header-title button {
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    font-size: 16px;
+        color: #000000;
+        width:155px;
+    }
+
+#hero {
+        background: url("../img/hero2.png ")  no-repeat center/cover;
+        min-height: 100vh;
+         display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+.hero-title {
+        padding: 115px 0;
+    }
+
+.hero-icons {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.hero-icons a {
+    color: white;
+    padding: 0 10px;
+}
+
+.hero-title h4 {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.hero-title h1 {
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-title p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+#blocks {
+    background: #000000;
+    min-height: 100vh;
+}
+.blocks {
+    padding: 80px 0;
+}
+.block h1 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.block p{
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #C0C0C0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.blocks-title h1 {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.blocks-title p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    padding: 10px 0;
+}
+.blocks-title button {
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 21px 80px;
+}
+.block-bg p {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    color: black;
+}
+.block-bg {
+    position: absolute;
+    bottom: 0;
+    left: 46px;
+
+}
+.blocks-img img {
+    position: relative;
+}
+.blocks-title {
+    position: absolute;
+   bottom:   -894px;
+    left: 120px;
+}
+.block-img {
+    position: absolute;
+    bottom: -2px;
+    left: 4px;
+}
+.blocks-block {
+    position: absolute;
+    bottom: -4px  ;
+    left: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#phone {
+    background: url("../img/phone.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.phone-title   h2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.phone-title  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.phone {
+    display: flex;
+    align-items: end;
+    justify-content:end     ;
+    padding: 400px 0 0 0;
+}
+.phone-icon  {
+ display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 330px  0 0 0 ;
+    color: white;
+}
+.phone-icon a {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 12px;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+#use {
+    background: black;
+    min-height: 540px;
+}
+.use {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.use-title {
+    padding: 100px 100px;
+}
+
+.use-title h2 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.use-title h1 {
+    font-weight: 400;
+    font-size: 35px;
+    color: #FFFFFF;
+    padding: 5px 0;
+}
+
+.use-title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 20px
+}
+
+
+.use-title button {
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 23px 80px;
+
+}
+.use-bg p {
+    color: black;
+    font-size: 18px;
+}
+.use-bg {
+    position: absolute;
+    bottom: -2465px;
+    left: 145px;
+}
+.use-tel {
+    position: absolute;
+    bottom: -2458px;
+    left: 106px;
+}
+
+.use-img img {
+    width: 1000px;
+    padding-right: -100px ;
+}
+.use-img-nav a {
+    color: white;
+    font-size: 18px;
+    padding: 0 5px;
+}
+.use-img {
+    position: relative;
+}
+.use-img-nav {
+    position: absolute;
+    bottom: 61px;
+    right: 47px;
+}
+
+#leafs {
+    background: url("../img/leafs.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.leafs-title h1 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.leafs-title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+}
+
+.leafs-title {
+    position: absolute;
+    bottom: -3235px;
+    right: 115px;
+}
+.leafs-nav a {
+    color: white;
+    font-size: 18px;
+    padding: 0 5px;
+
+}
+.leafs-nav {
+   display: flex;
+    align-items: start;
+    justify-content: end;
+
+}
+#past {
+    background: #000000;
+}
+.past-title h1 {
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.past {
+    padding: 100px 0;
+}
+.past-title p {
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 100px;
+}
+.past-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.past-img img {
+    padding: 0 80px;
+}
+#fall {
+    background: url("../img/fall.png") no-repeat center/cover;
+    min-height: 100vh   ;
+}
+.fall-title h1 {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.fall-title p  {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.fall-title {
+    position: absolute;
+    bottom: -4655px;
+    right: 154px;
+}
+.fall-nav a {
+    color: white;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.fall-nav {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-top: 860px  ;
+}
+
+#need {
+    background: #000000;
+}
+
+.need {
+    padding: 130px 0;
+}
+.need h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.need p {
+    font-weight: 400;
+    font-size: 24px;
+        text-align: center;
+    color: #C0C0C0;
+    padding: 10px 0;
+}
+
+
+#footer {
+    background: #000000;
+    width: 100%;
+    height: 652px;
+}
+.footer-bg   {
+    color: white;
+    padding-top:  40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-img p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #C0C0C0;
+    padding-top: 10px;
+}
+.footer-title-right {
+    padding: 0 60px;
+}
+
+.footer-title-left h1  {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.footer-title-left p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 8px 0;
+}.footer-title-right h1  {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+     opacity: 0.7;
+}
+.footer-title-right p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 0;
+}
